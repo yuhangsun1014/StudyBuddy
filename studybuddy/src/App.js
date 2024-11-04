@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Hero from './components/Hero';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
@@ -17,8 +19,6 @@ function App() {
         >
           Learn React
         </a>
-        <SignInButton />
-        <SignUpButton />
       </header>
     </div>
   );
