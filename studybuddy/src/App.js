@@ -17,9 +17,26 @@ function App() {
         >
           Learn React
         </a>
+        <SignInButton />
+        <SignUpButton />
       </header>
     </div>
   );
 }
 
+function SignInButton(){
+  return(
+    <button>
+      Sign In
+    </button>
+  );
+}
+
+function SignUpButton(){
+  return(
+    <button>
+      Sign Up
+    </button>
+  );
+}
 export default App;
